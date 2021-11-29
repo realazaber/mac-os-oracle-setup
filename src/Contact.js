@@ -10,12 +10,12 @@ function Contact() {
             </h3>
             <form>
                 <label for="Name">
-                    Name:
+                    Name *:
                 </label>
                 <input id="Name" type="text" required></input>
                 
                 <label for="Email">
-                    Email:
+                    Email *:
                 </label>
                 <input id="Email" type="email" required></input>
                 
@@ -25,7 +25,7 @@ function Contact() {
                 <input id="Phone" type="number"></input>
 
                 <label for="Message">
-                    Message:
+                    Message *:
                 </label>
                 <textarea id="Message">
 
