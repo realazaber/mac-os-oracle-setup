@@ -9,7 +9,23 @@ function Contact() {
                 Don't hesitate to contact me.
             </h3>
             <form>
+                <label for="Name">
+                    Name:
+                </label>
+                <input id="Name" type="text" required></input>
                 
+                <label for="Email">
+                    Email:
+                </label>
+                <input id="Email" type="email" required></input>
+                
+                <label for="Phone">
+                    Phone:
+                </label>
+                <input id="Phone" type="number"></input>
+                <button id="submit" type="submit">
+                    Submit
+                </button>
             </form>
         </div>
     )
