@@ -23,6 +23,14 @@ function Contact() {
                     Phone:
                 </label>
                 <input id="Phone" type="number"></input>
+
+                <label for="Message">
+                    Message:
+                </label>
+                <textarea id="Message">
+
+                </textarea>
+
                 <button id="submit" type="submit">
                     Submit
                 </button>
